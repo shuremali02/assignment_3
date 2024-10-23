@@ -1,8 +1,8 @@
 import React from 'react';
 import Link from 'next/link';
-import Image from 'next/image';
-import { FaFacebook, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 
+import { FaFacebook, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import { SiGeeksforgeeks } from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -25,12 +25,12 @@ export default function Footer() {
                  {/* Email contact for larger screens */}
                  Interested in connecting? Send me a message at: {" "}
                <button className="bg-white text-black py-3 px-7 rounded-md">
-                 📧 shuremsyed41@gmail.com 
+                 📧 greensgroups41@gmail.com 
                  </button>
                </p>
              <button className="bg-black text-blue-300 py-3 px-7 rounded-md md:hidden">
                  {/* Email contact for smaller screens */}
-                 Shuremsyed41@gmail.com
+                 GreensGroups41@gmail.com
                </button>
              </div>
          </div>
@@ -53,13 +53,7 @@ export default function Footer() {
          <div className="flex justify-center">
            {/* Centered profile image */}
 
-           <Image
-             src="/dp.jpg"            // Path to the image
-             alt=""       // Alt text for accessibility
-             width={80}               // Adjusted width for better visibility on larger screens
-             height={80}              // Adjusted height to maintain aspect ratio
-             className="rounded-full h-auto"
-           />
+           <SiGeeksforgeeks size={44} className='bg-white rounded-full p-1'/>
          </div>
 
          <div className="flex justify-center space-x-6 text-2xl lg:text-3xl">
@@ -100,7 +94,7 @@ export default function Footer() {
 
            All rights reserved. &copy; Copyright{" "}
            <Link href="/">
-             Syed Shurem Ali
+            Greens Group
            </Link>{" "}
            2024
          </div>

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+
 import Link from 'next/link';
 import Header from './Header';
 import { FaFacebook, FaLinkedin, FaGithub,} from "react-icons/fa";

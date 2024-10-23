@@ -23,7 +23,7 @@ export default function Navbar() {
           <h1 className='text-3xl font-serif flex '>
             
           <SiGeeksforgeeks size={38} className='bg-blue-600 rounded-full md:p-1 md:mr-4 '/> 
-          <p className='hidden md:flex'>Geens Group
+          <p className='hidden md:flex'>Greens Group
           </p>
           </h1>
         </div>

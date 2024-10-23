@@ -2,11 +2,11 @@ import React from 'react'
 import Image from 'next/image'
 export default function ProjectSection() {
   return (
-    <section className="bg-gray-100 py-16">
+    <section className="bg-gray-100 py-16 px-5">
     <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
       <div>
-        <h3 className="text-3xl font-bold mb-4">Single Family</h3>
-        <p className="text-gray-600 mb-8">
+        <h3 className="text-5xl font-mono font-bold mb-4">Single Family</h3>
+        <p className="text-gray-600 mb-8 text-xl">
           Catherine Street Residence: A creative blend of modern design with efficiency in mind. Bringing your dream home to life.
         </p>
         <button className="px-8 py-4 bg-blue-500 text-white rounded-lg shadow-md hover:bg-blue-600">
