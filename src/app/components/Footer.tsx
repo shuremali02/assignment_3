@@ -28,7 +28,7 @@ export default function Footer() {
                  📧 greensgroups41@gmail.com 
                  </button>
                </p>
-             <button className="bg-black text-blue-300 py-3 px-7 rounded-md md:hidden">
+             <button className="bg-white text-blue-300 py-3 px-4 rounded-md md:hidden">
                  {/* Email contact for smaller screens */}
                  GreensGroups41@gmail.com
                </button>
