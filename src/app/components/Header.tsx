@@ -33,9 +33,9 @@ export default function Navbar() {
       {/* Centered Navigation for larger screens */}
       <nav className="hidden md:flex ">
         <ul className='flex space-x-14 text-black'>
-          <li><Link className='hover:text-blue-300 hover:underline underline-offset-2' href="/about">About</Link></li>
-          <li><Link className='hover:text-blue-300 hover:underline underline-offset-2' href="/portfolio">Projects</Link></li>
-          <li><Link className='hover:text-blue-300 hover:underline underline-offset-2' href="/contact">Contact Us</Link></li>
+          <li><Link className='hover:text-blue-300 hover:underline underline-offset-2' href="#">About</Link></li>
+          <li><Link className='hover:text-blue-300 hover:underline underline-offset-2' href="#">Projects</Link></li>
+          <li><Link className='hover:text-blue-300 hover:underline underline-offset-2' href="#">Contact Us</Link></li>
         </ul>
       </nav>
 
@@ -50,9 +50,9 @@ export default function Navbar() {
       {Open && (
         <nav className="absolute top-16 left-0 right-0 bg-white text-black  text-center">
           <ul className="flex flex-col gap-4 py-4">
-            <li><Link href="/portfolio" className="hover:underline underline-offset-2">Projects</Link></li>
-            <li><Link href="/about" className="hover:underline underline-offset-2">About</Link></li>
-            <li><Link href="/contact" className="hover:underline underline-offset-2">Contact Us</Link></li>
+            <li><Link href="#" className="hover:underline underline-offset-2">Projects</Link></li>
+            <li><Link href="#" className="hover:underline underline-offset-2">About</Link></li>
+            <li><Link href="#" className="hover:underline underline-offset-2">Contact Us</Link></li>
           </ul>
         </nav>
       )}
