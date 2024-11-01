@@ -5,7 +5,7 @@ import { FaFacebook, FaLinkedin, FaGithub,} from "react-icons/fa";
 
 export default function HeroSection() {
   return (
-    <section className="relative bg-cover bg-center bg-no-repeat h-screen " style={{ backgroundImage: "url(https://i.pinimg.com/enabled/564x/b7/36/80/b736803df13f591718fdfa94a3fe5ac6.jpg)" }}>
+    <section className="relative bg-cover bg-center bg-no-repeat h-screen " style={{ backgroundImage: "url(https://i.pinimg.com/564x/90/63/00/906300fb43691f388d9eb8624474b426.jpg)" }}>
       {/* Overlay */}
       <Header/>
       <div className="absolute inset-0 bg-white opacity-50"></div>
